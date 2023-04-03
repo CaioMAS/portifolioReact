@@ -1,0 +1,34 @@
+@use '../variables'
+
+#sidebar
+    background-color: variables.$bg-color
+    flex:  1 1 0
+    border-radius: variables.$container-border-radius
+    display: flex
+    align-items: center
+    flex-direction: column
+    text-align: center
+    position: relative
+    padding: 3rem 0
+
+    img
+        max-width: 70%
+        border-radius: variables.$container-border-radius
+        position: absolute
+        top: -3rem
+         
+
+    .title
+        color: variables.$text-color-secundary
+        background-color: variables.$bg-color-secundary
+        border-radius: variables.$card-border-radius
+        margin-top: 15rem
+        padding: .8rem 1.2rem
+
+    .btn
+        padding: 1rem 1.2rem
+        color: variables.$text-color
+        background: variables.$gradient
+        text-decoration: none
+        border-radius: 3rem
+         

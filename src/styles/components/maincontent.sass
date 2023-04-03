@@ -1,0 +1,41 @@
+@use '../variables'
+
+#main-content
+    background-color: variables.$bg-color
+    flex: 2 1 0
+    border-radius: variables.$container-border-radius
+    padding: 3rem
+
+    section
+        display: flex
+        flex-direction: column
+
+    h2
+        color: variables.$text-color
+        font-size: 2.2rem
+        margin-bottom: 1.3rem        
+        justify-content: start
+        gap: 1rem
+
+        &:after
+            content: ""
+            background: variables.$gradient
+            height: 2px
+            width: 30%
+
+    p
+        color: variables.$text-color-secundary
+        margin-bottom: 1rem
+        line-height: 1.4rem
+        text-align: justify
+
+    .btn 
+        align-self: start 
+        padding: 1rem 1.2rem
+        color: variables.$text-color
+        background: variables.$gradient
+        text-decoration: none
+        border-radius: 3rem
+                                        
+            
+            
