@@ -11,19 +11,34 @@
     position: relative
     padding: 3rem 0
 
+    @media ( min-width: 300px )
+        width: 100%
+
     img
         max-width: 70%
         border-radius: variables.$container-border-radius
         position: absolute
         top: -3rem
-         
+      
 
     .title
         color: variables.$text-color-secundary
         background-color: variables.$bg-color-secundary
         border-radius: variables.$card-border-radius
         margin-top: 15rem
-        padding: .8rem 1.2rem
+        padding: .8rem 1.2rem 
+
+        @media ( min-width: 300px )
+            margin-top: 10rem 
+
+        @media ( min-width: 1000px )
+            margin-top: 10rem  
+
+        @media ( min-width: 1280px )
+            margin-top: 15rem        
+
+        @media ( min-width: 1580px )
+            margin-top: 23rem
 
     .btn
         padding: 1rem 1.2rem
@@ -32,3 +47,6 @@
         text-decoration: none
         border-radius: 3rem
          
+
+    
+    
