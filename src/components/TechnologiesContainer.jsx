@@ -3,7 +3,7 @@ import {
     DiCss3,
     DiJsBadge,
     DiNodejsSmall,
-    DiMysql,
+    DiMongodb,
     DiReact,
 } from "react-icons/di"
 
@@ -14,7 +14,7 @@ const technologies = [
     { id: "css", name: "CSS3", icon: <DiCss3 />, text: "Sei isso de CSS" },
     { id: "js", name: "JavaScript", icon: <DiJsBadge />, text: "Sei isso de Javascript" },
     { id: "node", name: "Node.js", icon: <DiNodejsSmall />, text: "Sei isso de Node" },
-    { id: "mysql", name: "MySQL", icon: <DiMysql />, text: "Sei isso de MongoDB" },
+    { id: "mongodb", name: "MongoDB", icon: <DiMongodb />, text: "Sei isso de MongoDB" },
     { id: "react", name: "React", icon: <DiReact />, text: "Sei isso de React" },
 ]
 
