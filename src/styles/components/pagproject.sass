@@ -1,0 +1,22 @@
+@use '../variables'
+
+#project
+    display: flex
+    flex-wrap: wrap
+    padding: 3rem
+    gap: 3rem
+
+    @media ( max-width: 500px)
+        display: flex
+        padding: 1rem
+
+    h1
+        width: 100%
+        font-size: 5rem
+        margin-bottom: 1.5rem
+        background: variables.$gradient
+        -webkit-background-clip: text 
+        -webkit-text-fill-color: transparent 
+
+        @media ( min-width: 300px )
+            font-size: 3rem

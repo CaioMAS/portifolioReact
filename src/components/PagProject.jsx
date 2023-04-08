@@ -1,7 +1,12 @@
+import ContainerProject from "./ContainerProject"
+
+import '../styles/components/pagproject.sass'
+
 const PagProject = () => {
     return (
-        <div>
-            <h1>Oi</h1>
+        <div id="project">
+            <h1>Projetos</h1>
+            <ContainerProject/>
         </div>
     )
 }
