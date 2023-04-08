@@ -1,3 +1,5 @@
+import '../styles/components/aboutContainer.sass'
+
 const AboutContainer = () => {
     return (
         <section className="about-container">
