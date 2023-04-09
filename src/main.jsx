@@ -23,6 +23,12 @@ const router = createBrowserRouter([
 
 ])
 
+router.subscribe(({pathname}) => {
+  if (pathname !== window.location.pathname) {
+    window.scrollTo(0, 0);
+  }
+})
+
 
 import './styles/main.sass'
 

@@ -7,7 +7,7 @@ import '../styles/components/pagproject.sass'
 const PagProject = () => {
     return (
         <div id="project">
-            <h1>Projetos</h1>
+            <h1>Projects</h1>
             <Link className="link" to={"/"}>
             <div className="link-home">
                 <BiArrowBack id="seta"/>

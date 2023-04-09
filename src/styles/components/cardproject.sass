@@ -1,7 +1,7 @@
 @use '../variables'
 
 .project-container     
-    margin: 0 auto
+    
 
     img
         width: 100%
@@ -14,13 +14,15 @@
         display: flex
         flex-wrap: wrap
         gap: 1.5rem
+    
+    .description
+        margin-bottom: 2rem
 
     .project-card
-        display: flex
+        display: flex        
         justify-content: center
-        align-items: center
         gap: 1rem
-        padding: 1rem
+        padding: 1.5rem
         border: 1px solid #333
         width: 45%
         border-radius: variables.$card-border-radius
@@ -31,7 +33,18 @@
 
         h3
             color: variables.$text-color
-            margin-bottom: 1rem           
+            margin-bottom: 1rem    
+
+    .btn
+        padding: 1rem 1.2rem
+        color: variables.$text-color
+        background: variables.$gradient
+        text-decoration: none
+        border-radius: 3rem
+        
+
+
+        
                           
 
             

@@ -3,13 +3,13 @@ import { Link } from "react-router-dom"
 const ProjectsContainer = () => {
     return (
         <section className="projects-container">
-            <h2>Projetos</h2>
+            <h2>Projects</h2>
             <p>
-                Conheça com mais detalhes um pouco mais sobre meus projetos.
+            Here you can learn in detail about some of my projects. Explore and discover more about each of them!
             </p>
 
             <Link to={"/project"} className="btn">            
-                Ver Projetos            
+            View Projects          
             </Link>
             
         </section>

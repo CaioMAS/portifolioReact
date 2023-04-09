@@ -10,18 +10,18 @@ import {
 import '../styles/components/technologiesContainer.sass'
 
 const technologies = [
-    { id: "html", name: "HTML5", icon: <DiHtml5 />, text: "Conhecimento sólido em estrutura e sintaxe básicas, criação de formulários, semântica, validação, CSS, melhores práticas e exemplos de projetos." },
-    { id: "css", name: "CSS3", icon: <DiCss3 />, text: "Habilidade em criar estilos visuais para elementos HTML com cores, fontes, layouts e efeitos." },
-    { id: "js", name: "JavaScript", icon: <DiJsBadge />, text: "Domínio da linguagem de programação para criação de scripts interativos, manipulação do DOM e consumo de APIs." },
-    { id: "node", name: "Node.js", icon: <DiNodejsSmall />, text: "Experiência em desenvolver aplicações backend escaláveis e em tempo real, com uso de bibliotecas e frameworks." },
-    { id: "mongodb", name: "MongoDB", icon: <DiMongodb />, text: "Conhecimento em banco de dados NoSQL orientado a documentos, com habilidade em criar e consultar coleções." },
-    { id: "react", name: "React", icon: <DiReact />, text: "Experiência em criação de interfaces de usuário (UI) escaláveis, componentes reutilizáveis e utilização de bibliotecas e frameworks." },
+    { id: "html", name: "HTML5", icon: <DiHtml5 />, text: "Solid knowledge in basic structure and syntax, form creation, semantics, validation, CSS, best practices, and project examples." },
+    { id: "css", name: "CSS3", icon: <DiCss3 />, text: "Ability to create visual styles for HTML elements with colors, fonts, layouts, and effects." },
+    { id: "js", name: "JavaScript", icon: <DiJsBadge />, text: "Proficiency in programming language for creating interactive scripts, manipulating the DOM, and consuming APIs." },
+    { id: "node", name: "Node.js", icon: <DiNodejsSmall />, text: "Experience in developing scalable and real-time backend applications, using libraries and frameworks." },
+    { id: "mongodb", name: "MongoDB", icon: <DiMongodb />, text: "Knowledge in NoSQL document-oriented databases, with ability to create and query collections." },
+    { id: "react", name: "React", icon: <DiReact />, text: "Experience in creating scalable user interfaces (UI), reusable components, and utilizing libraries and frameworks." },
 ]
 
 const TechnologiesContainer = () => {
     return (
         <section className="techologies-container">
-            <h2>Tecnologias</h2>
+            <h2>Technologies</h2>
             <div className="technlogies-grid">
                 {technologies.map((tech) => (
                     <div className="technology-card" id={tech.id} key={tech.id}>
