@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
 
+import "../styles/components/projectcontainer.sass"
+
 const ProjectsContainer = () => {
     return (
         <section className="projects-container">
@@ -8,7 +10,7 @@ const ProjectsContainer = () => {
             Here you can learn in detail about some of my projects. Explore and discover more about each of them!
             </p>
 
-            <Link to={"/project"} className="btn">            
+            <Link to={"/project"} className="btnProject">            
             View Projects          
             </Link>
             
